@@ -148,6 +148,7 @@ nav .logo .logoImage {
 }
 
 nav .logo .logo_text {
+  color: var(--blue);
   font-size: var(--logo-size);
   margin-left: 1rem;
 }
