@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasper Pool</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/Universal.css">
+    <link rel="stylesheet" href="./css/Variable.css">
+    <link rel="stylesheet" href="./css/Exchange.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="head_title flex">
+            <div class="logo"><img src="./img/logo.svg" width="100" alt="Logo"></div>
+            <h1 class="title">Jasper Pool</h1>
+            </div>
+            <div class="address_box flex">  
+                <h1 onclick="copyFunc()" class="address flex"><span>IDO Contract:</span> 
+                    <span class="flex-between two"> <input readonly type="text" class="address_value" id="address" value="0x33ec8aeebda99jfnd988eo8dh98s9hs"><span class="copy_icon"><i class="fas fa-copy"></i></span></span></h1>
+
+                </div>
+                <div id="success">Copied!</div>
+            
+
+            <div class="card_box container">
+                <div class="card">
+
+                    <div class="flex-between exchange_status">
+                        <div class="rem_lim">
+                            <h1 class="rem_ex">Remaining limit</h1>
+                            <h1 class="rem_ex_value">100 BNB</h1>
+                        </div>
+                        <div class="ex_pro">
+                            <h1 class="rem_ex">Exchange Proportion</h1>
+                            <h1 class="rem_ex_value">1 BNB : 3000 jasper</h1>
+                        </div>
+                    </div>
+
+                    <div class="balance_box flex-between">
+                        <h3 class="balance"><span>Balance:</span><span>1.94</span><span> BNB</span></h3>
+                    </div>
+                    <div class="transc flex-between">
+                        <input type="text" name="balance_value" value="0.5" id="balance_value" class="balance_value">
+                        <i class="fas fa-sync-alt transc_icon"></i>
+                    </div>
+
+                    <div class="progress_bar flex">
+                        <div id="bar" class="bar flex-center"><span class="bar_value" id="mini_bar_value">0</span>%</div>
+                    </div>
+                    <div class="l_h_bar_vlaue flex-between">
+                        <h1><span id="bar_value"></span> BNB</h1>
+                        <h1>100 BNB</h1>
+                    </div>
+
+                    <label onclick="hideShow()" class="hide_show flex-center">
+                        <span class="hide">Hide</span>
+                        <span class="arrow">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                </div>
+
+                    <div class="hidden_box" id="hidden_box">
+                        <h1 class="flex-between"><span class="title">Launch Time</span><span>2021-05-16 00:24:13</span></h1>
+                        <h1 class="flex-between"><span class="title">End Time</span><span>2021-05-19 00:24:13</span></h1>
+                        <h1 class="flex-between"><span class="title">For Sale</span><span>2021-05-16 00:24:13</span></h1>
+                        <h1 class="flex-between"><span class="title">TO raise(BNB)</span><span>100 BNB</span></h1>
+                        <h1 class="flex-between"><span class="title">Amount Limit</span><span>5 BNB</span></h1>
+                    </div>
+
+                </div>
+                <h1 class="title">Token information</h1>
+
+                <div class="card_box container token_info">
+                    <div class="card">
+                        <div class="hidden_box">
+                            <h1 class="flex-between"><span class="title">Name</span><span>Jasper</span></h1>
+                            <h1 class="flex-between"><span class="title">Address</span><span class="address">0x33ec8aeebda99jfnd988eo8dh98s9hs</span></h1>
+                            <h1 class="flex-between"><span class="title">Total Supply</span><span>1000000000</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+</html>
