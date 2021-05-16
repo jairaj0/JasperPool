@@ -6,6 +6,11 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin: 1rem 0;
+  margin-top: 3rem;
+}
+
+.head_title .logo {
+  margin-right: 2rem;
 }
 
 .head_title .title {
