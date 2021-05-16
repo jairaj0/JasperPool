@@ -217,6 +217,10 @@ h1.title{
 
 @media only screen and (max-width: 500px) {
 
+    .head_title{
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
     .hidden_box{
         h1{
             flex-direction: column;
@@ -232,7 +236,7 @@ h1.title{
             width: 100%;
         }
     }
-    .container{
+    .containerE{
         padding: 3rem 1rem;
     }
 

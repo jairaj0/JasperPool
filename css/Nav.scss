@@ -163,3 +163,11 @@ nav {
         }
     }
 }
+
+@media only screen and (max-width: 370px) {
+nav{
+    .logo_text{
+        font-size: 22px !important;
+    }
+}
+}

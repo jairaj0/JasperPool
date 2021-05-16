@@ -233,6 +233,10 @@ h1.title {
 }
 
 @media only screen and (max-width: 500px) {
+  .head_title {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
   .hidden_box h1 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -246,7 +250,7 @@ h1.title {
   .token_info .address {
     width: 100%;
   }
-  .container {
+  .containerE {
     padding: 3rem 1rem;
   }
 }

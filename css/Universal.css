@@ -40,6 +40,12 @@
           justify-content: space-between;
 }
 
+.containerE {
+  padding: 0 2rem;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .container {
   padding: 0 2rem;
   max-width: 1500px;
@@ -51,7 +57,7 @@ a {
 }
 
 @media only screen and (max-width: 650px) {
-  .container {
+  .containerE {
     padding: 0 1rem;
   }
 }
