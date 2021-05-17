@@ -74,17 +74,17 @@ document.querySelector('.close').addEventListener('click' , function(){
   document.querySelector('.menu').style.display= 'flex';
 })
 
-document.getElementById('join_us').addEventListener('click' , function(){
-  document.querySelector('.menu_bar').style.bottom= '-100vh';
-  document.querySelector('body').style.overflow= 'auto';
-  document.querySelector('.menu').style.display= 'flex';
-})
+// document.getElementById('join_us').addEventListener('click' , function(){
+//   document.querySelector('.menu_bar').style.bottom= '-100vh';
+//   document.querySelector('body').style.overflow= 'auto';
+//   document.querySelector('.menu').style.display= 'flex';
+// })
 
-document.getElementById('discord').addEventListener('click' , function(){
-  document.querySelector('.menu_bar').style.bottom= '-100vh';
-  document.querySelector('body').style.overflow= 'auto';
-  document.querySelector('.menu').style.display= 'flex';
-})
+// document.getElementById('discord').addEventListener('click' , function(){
+//   document.querySelector('.menu_bar').style.bottom= '-100vh';
+//   document.querySelector('body').style.overflow= 'auto';
+//   document.querySelector('.menu').style.display= 'flex';
+// })
 
 document.getElementById('connect').addEventListener('click' , function(){
   document.querySelector('.menu_bar').style.bottom= '-100vh';
