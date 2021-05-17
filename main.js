@@ -1,12 +1,13 @@
 // If you change valueOfBar it will automatic show on progress bar
 
-var valueOfBar = '30.0';
-var max_bnb = '100';
+var valueOfBar = '40';
+var max_bnb = '930';
 
 document.getElementById('bar').style.width = `${value(valueOfBar)}%`
 document.getElementById('bar').style.minWidth = '50px'
 document.getElementById('bar_value').innerText = `${valueOfBar}`
-document.getElementById('mini_bar_value').innerText = `${valueOfBar}`
+document.getElementById('max_bnb').innerText = `${max_bnb}`
+document.getElementById('mini_bar_value').innerText = `${value(valueOfBar).toFixed(2)}`
 valueOfBar = parseInt(valueOfBar)
 max_bnb = parseInt(max_bnb)
 
